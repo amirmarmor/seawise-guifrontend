@@ -1,7 +1,7 @@
 import {createSlice} from "@reduxjs/toolkit"
 
 const initialState = {}
-const api = process.env.REACT_APP_API_HOST || ``
+const api = "http://localhost:8080"
 
 export const deviceSlice = createSlice({
   name: 'device',
